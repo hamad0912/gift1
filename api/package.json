@@ -1,0 +1,14 @@
+{
+  "name": "gift-webhook",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/webhook.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "vercel-build": "echo 'Custom Vercel build step'"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.0.0",
+    "google-spreadsheet": "^4.0.0"
+  }
+}
